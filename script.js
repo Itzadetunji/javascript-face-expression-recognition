@@ -14,3 +14,7 @@ function startVideo() {
     err => console.error(err)
   )
 }
+
+video.addEventListener('play', () => {
+  console.log("sdadada")
+})
